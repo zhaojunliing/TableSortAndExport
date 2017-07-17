@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/dataset.js"></script>
+		<script type="text/javascript" src="js/xlsx.core.min.js"></script>
+		<script type="text/javascript" src="js/FileSaver.min.js"></script>
+		<script type="text/javascript" src="js/tableExport.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" href="css/theme.blue.min.css" type="text/css" media="print, projection, screen" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="panel panel-primary">
+			<!-- Default panel contents -->
+			<div class="panel-heading clearfix">
+				<span><big>图书信息</big></span>
+				<button id="export" class="btn btn-primary pull-right" style="margin: 2px;">
+					<span class="glyphicon glyphicon-cloud-download"></span>
+					<span>&nbsp&nbsp导出</span>
+				</button>
+			</div>
+			<table class="table tablesorter tablesorter-blue">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>书名</th>
+						<th>作者</th>
+						<th>出版日期</th>
+						<th>页码</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</body>
+
+</html>
