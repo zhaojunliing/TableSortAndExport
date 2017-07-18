@@ -4,16 +4,27 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<!--引入jquery-->
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<!--引入bootstrap.min.js-->
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<!--引入tableExport格式组件,用于导出xlsx格式-->
+		<script type="text/javascript" src="js/tableExport/xlsx.core.min.js"></script>
+		<!--引入tableExport组件,用于在客户端存储导出的文件-->
+		<script type="text/javascript" src="js/tableExport/FileSaver.min.js"></script>
+		<!--最后引入表格导出主文件tableExport.min.js-->
+		<script type="text/javascript" src="js/tableExport/tableExport.min.js"></script>
+		<!--引入表格排序主文件jquery.tablesorter.min.js-->
+		<script type="text/javascript" src="js/tableSorter/jquery.tablesorter.min.js"></script>
+		<!--引入自定义的模拟数据dataset.js-->
 		<script type="text/javascript" src="js/dataset.js"></script>
-		<script type="text/javascript" src="js/xlsx.core.min.js"></script>
-		<script type="text/javascript" src="js/FileSaver.min.js"></script>
-		<script type="text/javascript" src="js/tableExport.min.js"></script>
-		<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+		<!--引入自定义js文件index.js-->
 		<script type="text/javascript" src="js/index.js"></script>
-		<link rel="stylesheet" href="css/theme.blue.min.css" type="text/css" media="print, projection, screen" />
+		<!--引入bootsrap.min.css用于页面样式,与表格导出和表格排序功能无关-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<!--引入tableSorter的blue主题样式-->
+		<link rel="stylesheet" href="css/tableSorter/theme.blue.min.css" type="text/css" media="print, projection, screen" />
+		<!--引入自定义样式style.css,对页面样式的微调-->
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 
